@@ -13,12 +13,6 @@ const HeroSection = ({ diseaseCount, symptomCount }: HeroSectionProps) => {
         <div className="absolute bottom-0 left-0 w-48 h-48 rounded-full bg-primary-foreground/10 translate-y-1/3 -translate-x-1/4" />
       </div>
       <div className="relative z-10">
-        <div className="flex items-center gap-2 mb-4">
-          <Activity className="w-6 h-6" />
-          <span className="text-sm font-medium tracking-wide uppercase opacity-80">
-            AI-Powered Health Insights
-          </span>
-        </div>
         <h1 className="font-display text-3xl md:text-4xl font-bold mb-3">
           Symptom Checker & Disease Finder
         </h1>
